@@ -16,12 +16,18 @@ project/plugins/project/
 
 #sbt-plugins specific
 
+#Bloop specific
+.bloop/
+
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
 .idea
 project/target
 *.env
+.metals/
+.vscode/
+*metals.sbt
 
 # IntelliJ
 /out/
